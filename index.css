@@ -1,0 +1,137 @@
+/* navbar 1st wali */
+.navbar{
+    height: 60px;
+    width: 100%;
+    background-color: #131515;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid  white;
+}
+.address{
+    color: white;
+    padding-left: 13PX;
+}
+.first{
+    font-size: 0.80rem;
+    color: #cccccc;
+}
+.second{
+    color: white;
+    font-size: 1rem;
+}
+.map{
+    display: flex;
+    align-items: center;
+}
+.search{
+    display: flex;
+    width: 650px;
+    height: 40px;
+    border-radius: 4px;
+}
+.search-icon{
+    color: black;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(251, 179, 46);
+    align-items: center;
+    width: 40px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.select{
+    background-color: #f3f3f3;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    align-items: center;
+    border: none;
+}
+.search-amazon{
+    width: 100%;
+    font-size: 1rem;
+    border: 1rem;
+}
+.signin{
+    color: white;
+}
+.hello{
+    font-size: 0.80rem;
+    color: #cccccc;
+    
+}
+.account{
+    font-size: 1rem;
+    color: white;
+}
+.Returns{
+    font-size: 0.80rem;
+    color: #cccccc;
+}
+.orders{
+    font-size: 1rem;
+    color: white;
+}
+.ro{
+    color: white;
+}
+.cart{
+    color: white;
+}
+.cart i{
+    font-size: 25px;
+}
+/* navbar 2nd wali */
+.navbar2{
+    background-color: #232F3E;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.navbar2-op p{
+    display: inline;
+    margin-left: 12px;
+}
+.navbar2-op{
+    width: 95.5%;
+}
+.hero{
+    background-image: url("hero_image.jpg");
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+.line{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    
+    margin-bottom: 55px;
+}
+
+
+
